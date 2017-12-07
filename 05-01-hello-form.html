@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jump-start HTML &amp; CSS</title>
+</head>
+<body>
+
+	<h1>Hello Form</h1>
+	<form>
+		<label for="firstName">First Name:</label>
+		<input type="text" id="firstName" name="firstName">
+		<!-- attribute name is usually necessary for programming languages to access the input field-->
+
+		<!-- not always working for screen readers though -->
+		<label>Last Name:
+			<input type="text" name="lastName">
+		</label>	
+
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email">
+			<!-- type email makes the ux better for onscreen users -->
+			<!-- double click the input fied, the browser may suggest an email -->
+		</div>
+		<div>
+			<label for="telephone">Telephone:</label>
+			<input type="tel" id="telephone" name="telephone">
+			<!-- type tel makes the ux better for onscreen users -->
+			<!-- double click the input fied, the browser may suggest a telephone number -->
+		</div>
+		<div>
+			<label for="yourMessage">Your message:</label>
+			<textarea id="yourMessage" name="yourMessage"></textarea>
+			<!-- allow users to input multi-lines of text -->
+		</div>
+		<div>
+			<!-- select (dropdown) -->
+			<label for="favoriteColor">What is your favorite color</label>
+			<select id="favoriteColor" name="favoriteColor">
+				<option value="colorRed">Red</option>
+				<option value="colorOrange">Orange</option>
+				<option value="colorYellow">Yellow</option>
+			</select>
+
+
+			
+		</div>
+		<div>
+			<!-- radio -->
+			<fieldset>
+				<legend>Which is your main meal?</legend>
+				<input type="radio" name="meal" id="breakfast" value="1"><label for="breakfast">Breakfast</label>
+				<input type="radio" name="meal" id="lunch" value="2" checked="checked"><label for="lunch">Lunch</label>
+				<input type="radio" name="meal" id="dinner" value="3"><label for="dinner">Dinner</label>	
+			</fieldset>		
+		</div>
+		<div>
+			<!-- checkbox -->
+			<fieldset>
+				<legend>Which meals would you like to have with rice?</legend>
+				<input type="checkbox" name="meal" id="breakfast" value="1"><label for="breakfast">Breakfast</label>
+				<input type="checkbox" name="meal" id="lunch" value="2" checked="checked"><label for="lunch">Lunch</label>
+				<input type="checkbox" name="meal" id="dinner" value="3"><label for="dinner">Dinner</label>	
+			</fieldset>				
+		</div>
+
+		<input type="submit" value="Submit">	
+	</form>
+
+</body>
+</html>
