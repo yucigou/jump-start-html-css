@@ -1,0 +1,169 @@
+
+html {
+	background-color: #869960;
+}
+
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 110%;
+}
+
+header {
+	padding-top: 20px;
+	/*padding-bottom: 20px;*/
+	color: #617140;
+}
+header h1 {
+	margin: 0;
+	font-weight: normal;
+	font-size: 165%;
+}
+
+header p {
+	margin: 0;
+}
+
+.site-nav {
+	margin-top: 20px;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav ul li {
+	list-style: none;
+	float: left;
+	margin-right: 20px;
+}
+
+.site-nav ul li a {
+	border: 3px solid #e5e9dc;
+	border-bottom: none;
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	color: #617140;
+}
+
+.site-nav ul li a:hover {
+	color: #FFF;
+	background-color: #617140;
+}
+
+.container {
+	/*940px*/
+	max-width: 700px; 
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFF;
+	padding-left: 40px;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.content-area {
+	border-top: 3px solid #e5e9dc;
+	border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+	width: 66%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+}
+
+.sidebar {
+	width: 34%;
+	float: right;
+	background-color: #e5e9dc;
+	padding-right: 20px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	font-size: 90%;
+}
+
+/*Form style*/
+
+form {
+	background-color: #ECECEC;
+	padding: 20px 30px;
+}
+
+input, select {
+	font-family: Tahoma, sans-serif;
+	font-size: 100%;
+}
+
+input[type="email"],
+input[type="password"],
+select {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	padding: 0 10px;
+	height: 40px;
+	margin-bottom: 10px;
+	border: 1px solid #CDCDCD;
+	outline: none;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+	border: 1px solid #869960;
+	box-shadow: inset 2px 2px 2px rgba(0, 0, 0, .15);
+}
+
+input[type="submit"] {
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+	background-color: #869960;
+	color: #FFF;
+	border: 1px solid #798A56;
+	border-radius: 3px;
+	height: 40px;
+	margin-bottom: 10px;
+}
+
+input[type="submit"]:focus,
+input[type="submit"]:hover {
+	border: 1px solid #535E3B;
+	background-color: #798A56;
+}
+
+span.checkbox-text {
+	font-size: 85%;
+	color: #777;
+}
+
+.hidden-lable {
+	position: absolute;
+	height: 0;
+	width: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+footer {
+	text-align: center;
+	font-size: 90%;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+.group:before, .group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}

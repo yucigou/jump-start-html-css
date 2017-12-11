@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jump-start HTML &amp; CSS</title>
+	<link rel="stylesheet" type="text/css" href="css/07-11-form.css">
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>Form Design</h1>
+			<p>Based on float</p>
+			<nav class="site-nav group">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</nav>			
+		</header>
+
+		<div class="content-area group">
+
+			<div class="main-area">
+				<p>This is the main area (or column)</p>
+				<p>CSS page layout techniques allow us to take elements contained in a web page and control where they are positioned relative to their default position in normal layout flow, the other elements around them, their parent container, or the main viewport/window. </p>
+				<form>
+					<div>
+						<label for="email" class="hidden-lable">Email</label>
+						<input type="email" id="email" name="email" placeholder="Email">
+						<!-- type email makes the ux better for onscreen users -->
+						<!-- double click the input fied, the browser may suggest an email -->
+					</div>
+					<div>
+						<label for="password" class="hidden-lable">Password</label>
+						<input type="password" id="password" name="password" placeholder="Password">
+					</div>		
+					<select id="initialRole" name="initialRole">
+						<option value="admin">Admin</option>
+						<option value="user">User</option>
+					</select>			
+					<input type="submit" value="Submit">
+					<label>
+						<input type="checkbox" name="rememberme" id="rememberme" value="1" checked="checked">
+						<span class="checkbox-text">Stay signed in</span>
+					</label>
+				</form>
+				<p>The float property is used for positioning and layout on web pages.</p>
+				<p>The CSS float property specifies how an element should float.</p>
+				<p>The CSS clear property specifies what elements can float beside the cleared element and on which side.</p>
+			</div>
+
+			<aside class="sidebar">
+				<p>This is sidebar.</p>
+				<p>Floats is a technique that allows the elements to float to the left or right of one another, rather than the default of sitting on top of one another. The main uses of floats are to lay out columns and float text around an image.</p>
+			</aside>
+
+		</div>
+
+		<footer>
+			<p>&copy; Code Good Works <span>2017</span></p>
+		</footer>
+		
+	</div>
+
+</body>
+</html>

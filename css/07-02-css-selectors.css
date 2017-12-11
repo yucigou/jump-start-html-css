@@ -1,0 +1,20 @@
+/*type selector*/
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+/*descendant selectors*/
+footer p {
+	color: green;
+	text-align: center;
+}
+
+footer p span {
+	color: red;
+}
+
+/*class selector*/
+.highlight {
+	background-color: yellow;
+}
