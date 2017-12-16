@@ -128,6 +128,7 @@ input[type="submit"] {
 	margin-bottom: 10px;
 }
 
+/*A pseudo-class is used to define a special state of an element.*/
 input[type="submit"]:focus,
 input[type="submit"]:hover {
 	border: 1px solid #535E3B;
